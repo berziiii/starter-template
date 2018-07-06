@@ -1,0 +1,17 @@
+node_modules/
+.DS_Store
+npm-debug.log*
+launch.json
+tmp
+public/
+dist/
+*.jpg
+*.jpeg
+*.svg
+*.png
+*.woff
+*.woff2
+*.ttf
+*.etf
+!*.keep
+!client/assets/images/*

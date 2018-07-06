@@ -1,0 +1,13 @@
+// SUB COMPONENT STYLING FOR HOME COMPONENT
+@import './ExampleComponent/example.style';
+
+
+// HOME STYLING
+.home_template-container {
+    text-align: center;
+    width: 100%;
+    min-height: 1px;
+    height: auto;
+    background: $white;
+}
+

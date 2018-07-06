@@ -1,0 +1,72 @@
+// ************************************ //
+// *****                          ***** //
+// ***** APPLICATION LEVEL STYLES ***** //
+// *****                          ***** //
+// ************************************ //
+
+.application-container {
+    width: 100vw;
+    min-height: 100vh;
+    background: $white;
+}
+
+app-template {
+    width: auto;
+    min-height: 100%;
+    padding: 0px 10px;
+    max-width: 1500px;
+    margin: 0 auto;
+    background: $white;
+}
+
+nav {
+    width: 100vw;
+    background: $black;
+    min-height: 1px;
+    box-shadow: 0px 3px 5px 0px #ccc;
+}
+
+.nav-container {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    background: $black;
+    text-align: right;
+}
+
+.icon {
+    display: inline-block;
+    float: left;
+    width: auto;
+    padding: 8px 10px;
+    img {
+        height: 40px;
+    }
+}
+
+.nav-items-container {
+    display: inline-block;
+    width: auto;
+}
+
+a.nav-item {
+    display: inline-block;
+    color: $white;
+    padding: 15px 30px;
+    margin: 0 -2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $white;
+    font-size: 1.25em;
+    font-weight: 900;
+    &:hover, &:visited, &:focus {
+        text-decoration: none;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+}   
+
+a.active-nav {
+    background: $white;
+    color: $black;
+}
